@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated files
+output/
+embeddings/
+vector_db/
+
+# PDFs (optional if you don't want to upload them)
+pdfs/
+
+# VS Code
+.vscode/
+
+# Virtual environment
+venv/
+.venv/

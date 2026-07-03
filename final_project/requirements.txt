@@ -1,0 +1,32 @@
+# PDF Processing
+PyMuPDF
+pdfplumber
+
+# OCR Fallback (for PDFs with broken/garbled font encoding)
+pytesseract
+Pillow
+# Note: also requires the Tesseract binary installed on your system, e.g.:
+#   sudo apt-get install tesseract-ocr tesseract-ocr-hin
+#   (replace "hin" with whichever languages your PDFs use)
+
+# Data Handling
+numpy
+pandas
+
+# Embedding Model
+sentence-transformers
+transformers
+torch
+
+# Vector Database
+faiss-cpu
+
+# Gemini API
+google-generativeai
+
+# Streamlit UI
+streamlit
+
+# Utilities
+tqdm
+python-dotenv
